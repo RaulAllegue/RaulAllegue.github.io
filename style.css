@@ -1,0 +1,110 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.news *{
+    padding: 2.5%;
+}
+.news{
+    width: 450px;
+    height: auto;
+    background-color: aliceblue;
+    margin: 15% auto;
+    border-radius: 5px;
+}
+#AboutMe{
+    color: blue;
+    transition: 0.15s;
+}
+#AboutMe:hover{
+    transition: 0.15s;
+    color: darkblue;
+    cursor: pointer;
+    font-style: italic;
+}
+.card h3{
+    padding: 5%;
+}
+h1{
+    padding: 5%;
+}
+.sideItem{
+    font-size: 25px;
+    display: block;
+    margin: 30px auto;
+}
+h3{
+    margin: 0;
+}
+h3:hover{
+    transition: 0.15s;
+    cursor:pointer;
+    color: gray;
+}
+h4{
+    margin: 0 auto;
+    transition: 0.15s;
+    font-style: italic;
+    width: 40%
+}
+.sidebar{
+    display: none;
+    text-align: left;
+    transition: 0.15s;
+    height: 97.5vh;
+    background-color: #373737;
+    position: fixed;
+    width: 100px;
+    border-radius: 5px;
+}
+.sideItem{
+    color: #b1b1b1;
+    margin-left: 40px;
+}
+i{
+    transition: 0.15s;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 97.5%;
+}
+i:hover{
+    transition: 0.15s;
+    cursor: pointer;
+    color: gray;
+}
+#blog{
+    margin: auto 5%;
+    display: block;
+}
+#news{
+    margin: auto 5%;
+    display: block;
+}
+.card{
+    transition: 0.15s;
+    background-color: gray;
+    width: 400px;
+    border-radius: 1.5%;
+    padding: 1.5%;
+    margin: 8.5% auto;
+}
+.card:hover{
+    transition: 0.15s;
+    background-color: #b1b1b1;
+    cursor: pointer;
+}
+img{
+    width: 350px;
+    border-radius: 1.5%;
+}
+html{
+    background-color: #b9b9b9;
+}
+.container{
+    background-color: white;
+    height: auto;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 1.5%;
+    padding: 1.5% 1.5%;
+}
