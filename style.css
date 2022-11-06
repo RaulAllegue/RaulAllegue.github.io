@@ -103,7 +103,9 @@ html{
 .container{
     background-color: white;
     height: auto;
-    width: 500px;
+    min-width: 150px;
+    max-width: 1200px;
+    width: 25vh;
     margin: 0 auto;
     border-radius: 1.5%;
     padding: 1.5% 1.5%;
