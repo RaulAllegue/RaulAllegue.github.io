@@ -5,12 +5,17 @@
 .news *{
     padding: 2.5%;
 }
+.news:hover{
+    cursor: pointer;
+}
 .news{
-    width: 450px;
-    height: auto;
+    transition: 0.15s;
     background-color: aliceblue;
-    margin: 15% auto;
-    border-radius: 5px;
+    max-width: 450px;
+    width: 85%;
+    border-radius: 1.5%;
+    padding: 1.5%;
+    margin: 8.5% auto;
 }
 #AboutMe{
     color: blue;
@@ -104,7 +109,7 @@ html{
 .container{
     background-color: white;
     height: auto;
-    min-width: 350px;
+    min-width: 325px;
     max-width: 1200px;
     width: 45vw;
     margin: 0 auto;
