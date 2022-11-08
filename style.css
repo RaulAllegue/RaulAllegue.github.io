@@ -83,7 +83,8 @@ i:hover{
 .card{
     transition: 0.15s;
     background-color: gray;
-    width: 400px;
+    max-width: 450px;
+    width: 85%;
     border-radius: 1.5%;
     padding: 1.5%;
     margin: 8.5% auto;
@@ -94,7 +95,7 @@ i:hover{
     cursor: pointer;
 }
 img{
-    width: 350px;
+    width: 95%;
     border-radius: 1.5%;
 }
 html{
@@ -103,9 +104,9 @@ html{
 .container{
     background-color: white;
     height: auto;
-    min-width: 150px;
+    min-width: 350px;
     max-width: 1200px;
-    width: 25vh;
+    width: 45vw;
     margin: 0 auto;
     border-radius: 1.5%;
     padding: 1.5% 1.5%;
